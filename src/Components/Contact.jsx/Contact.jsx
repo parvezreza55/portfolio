@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 
 const Contact = () => {
   return (
-    <div data-aos="fade-up" className="w-11/12 mx-auto py-10">
+    <div data-aos="fade-up" className="w-11/12 mx-auto py-10 mb-16">
       <Element name="contact">
         <h1 className="text-xl md:text-4xl text-center font-bold mb-7">
           Contact Me

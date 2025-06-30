@@ -2,8 +2,9 @@ import React from "react";
 import { Element } from "react-scroll";
 import profile from "../assets/images/profile.jpg";
 import { Typewriter } from "react-simple-typewriter";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "motion/react";
+import { Link } from "react-router";
 
 const Hero = () => {
   return (
@@ -25,7 +26,7 @@ const Hero = () => {
           </h1>
           <h1 className="text-xl md:text-2xl font-semibold opacity-60 mt-3">
             <Typewriter
-              words={["MERN Stack Developer"]}
+              words={["Full Stack Web Developer"]}
               loop={Infinity}
               cursor
               cursorStyle="|"
@@ -39,13 +40,28 @@ const Hero = () => {
           </div>
           <div className="mt-7 flex gap-7">
             <motion.h1 whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
-              <FaGithub size={20} />
+              <Link to={"https://github.com/parvezreza55"} target="_blank">
+                <FaGithub size={20} />
+              </Link>
             </motion.h1>
             <motion.h1 whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
-              <FaLinkedin size={20} />
+              <Link
+                to={
+                  "https://www.linkedin.com/in/parvez-reza-9a78a42a8/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                }
+                target="_blank"
+              >
+                <FaLinkedin size={20} />
+              </Link>
             </motion.h1>
             <motion.h1 whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
-              <FaTwitter size={20}></FaTwitter>
+              <Link
+                to={"https://www.facebook.com/parvez.reza.312357"}
+                target="_blank"
+              >
+                {" "}
+                <FaFacebook size={20}></FaFacebook>
+              </Link>
             </motion.h1>
           </div>
         </div>

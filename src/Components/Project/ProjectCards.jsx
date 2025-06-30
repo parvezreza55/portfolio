@@ -19,7 +19,7 @@ const ProjectCards = ({ project }) => {
             />
           </figure>
         </div>
-        <div className="flex flex-col justify-between px-3 py-2 space-y-4">
+        <div className="flex flex-col justify-between px-3 pb-4 space-y-4">
           <div className="">
             <h2 className="card-title">{name}</h2>
             <p className="flex-1">{description}</p>

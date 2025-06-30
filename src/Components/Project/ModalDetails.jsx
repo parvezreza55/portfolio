@@ -8,7 +8,7 @@ const ModalDetails = ({ project }) => {
   // console.log(ids);
   return (
     <div>
-      <div className=" card flex-col md:flex-row bg-base-300 rounded-2xl shadow-sm">
+      <div className=" card flex-col md:flex-row bg-base-300 rounded-2xl shadow-sm ">
         <figure className="w-[40%]">
           <img
             className="object-cover h-full rounded-2xl"
@@ -19,14 +19,14 @@ const ModalDetails = ({ project }) => {
         <div className="card-body flex-1">
           <h2 className="card-title">{project.name}</h2>
           <p className="text-left text-xs md:text-lg">{project.description}</p>
-          <p className="hidden md:flex md:flex-col">
+          <div className="hidden md:flex md:flex-col">
             <span className="font-semibold text-xl">Challenges</span>{" "}
             <p>{challenges}</p>
-          </p>
-          <p className="hidden md:flex md:flex-col">
+          </div>
+          <div className="hidden md:flex md:flex-col">
             <span className="font-semibold text-xl">Future Plan</span>{" "}
             <p>{futurePlans}</p>
-          </p>
+          </div>
           <div className="card-actions justify-start">
             <div>
               <div className="flex space-x-3 text-xs">

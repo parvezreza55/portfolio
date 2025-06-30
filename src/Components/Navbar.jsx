@@ -54,7 +54,7 @@ const Navbar = () => {
           Project
         </Link>
       </li>
-    
+
       <li>
         <Link
           className=" hover:bg-teal-300 hover:text-black font-semibold"
@@ -68,10 +68,16 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar">
+    <div className="navbar w-11/12 mx-auto">
       <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+        <p className="text-4xl text-teal-400 font-extrabold ">Parvez</p>
+      </div>
+      <div className="navbar-end hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">{links}</ul>
+      </div>
+      <div className="navbar-end lg:hidden">
+        <div className="dropdown flex justify-end">
+          <div tabIndex={0} role="button" className="btn btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -90,14 +96,11 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 border border-gray-50 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-10 w-52 p-2 border border-gray-50 shadow"
           >
             {links}
           </ul>
         </div>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
     </div>
   );

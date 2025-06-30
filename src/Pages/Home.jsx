@@ -7,10 +7,15 @@ import Education from "../Components/Eucation/Education";
 import Footer from "../Components/Footer/Footer";
 import Contact from "../Components/Contact.jsx/Contact";
 import Project from "../Components/Project/Project";
+import ScrollToTop from "react-scroll-to-top";
 
 const Home = () => {
   return (
     <div>
+      <div>
+        <ScrollToTop style={{ backgroundColor: "#46EDD5" }} smooth />
+      </div>
+
       <Navbar></Navbar>
       <Hero></Hero>
       <About></About>
