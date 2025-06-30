@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": ["HTML5", "CSS3", "Tailwind CSS"],
+    "icon": [
+      "https://i.ibb.co/TBDTF6j2/html-5.png",
+      "https://i.ibb.co/5Wv5001V/css-3.png",
+      "https://i.ibb.co/wFjFW8Qn/tailwind.jpg"
+    ],
+    "progress": 97,
+    "experience": "1 year+"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "icon": "https://i.ibb.co/23CmjPtX/js.png",
+    "progress": 90,
+    "experience": "1 year"
+  },
+  {
+    "id": 3,
+    "name": "React",
+    "icon": "https://i.ibb.co/vv4YDyPZ/react.png",
+    "progress": 92,
+    "experience": "6 months"
+  },
+  {
+    "id": 4,
+    "name": "Firebase",
+    "icon": "https://i.ibb.co/QRWyR6B/firebase.png",
+    "progress": 99,
+    "experience": "5 months"
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "icon": "https://i.ibb.co/PZsGSB2D/node-js.png",
+    "progress": 80,
+    "experience": "4 months"
+  },
+  {
+    "id": 6,
+    "name": "Express.js",
+    "icon": "https://i.ibb.co/7Nknq7RR/express.png",
+    "progress": 80,
+    "experience": "4 months"
+  },
+  {
+    "id": 7,
+    "name": "MongoDB",
+    "icon": "https://i.ibb.co/1YZdVDVy/MongoDB.png",
+    "progress": 87,
+    "experience": "4 months"
+  },
+  {
+    "id": 8,
+    "name": "Git & GitHub",
+    "icon": "https://i.ibb.co/ymhQ3QXH/github.png",
+    "progress": 90,
+    "experience": "2 years"
+  },
+  {
+    "id": 9,
+    "name": "VS Code",
+    "icon": "https://i.ibb.co/My3Bkk3G/vs.png",
+    "progress": 90,
+    "experience": "2 years"
+  }
+]

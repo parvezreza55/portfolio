@@ -3,10 +3,10 @@ import Navbar from "../Components/Navbar";
 import Hero from "../Components/Hero";
 import About from "../Components/About";
 import Skills from "../Components/Skills";
-import MyProject from "../Components/MyProject";
 import Education from "../Components/Eucation/Education";
 import Footer from "../Components/Footer/Footer";
 import Contact from "../Components/Contact.jsx/Contact";
+import Project from "../Components/Project/Project";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <About></About>
       <Skills></Skills>
       <Education></Education>
-      <MyProject></MyProject>
+      <Project></Project>
       <Contact></Contact>
       <Footer></Footer>
     </div>

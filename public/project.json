@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "HobbyHub",
+    "description": "HobbyHub is a platform that connects people through shared hobbies. Discover local groups, join events, or create your own community around passions like art, music, sports, and more all in one place.",
+    "image": "https://i.ibb.co/gFjc5Zm2/hobby.png",
+    "technologies": [
+      "React",
+      "MongoDB",
+      "Express.js",
+      "Tailwind CSS",
+      "React Router"
+    ],
+    "challenges": "Integrating multiple third-party authentication methods (Email, Google, GitHub) and ensuring protected routes across pages was complex. Managing hobby group data with proper validation and user permissions also presented challenges.",
+    "futurePlans": "Implement real-time group chat, add map-based location filtering, and enhance group recommendation with user activity history and interest tags."
+  },
+  {
+    "id": 2,
+    "name": "Service Review",
+    "description": "ServiceReviewHub is a platform where users can explore, rate, and review various services. From local businesses to digital platforms, it helps people share experiences, build trust, and make informed decisions through genuine user feedback.",
+    "image": "https://i.ibb.co/GvCqVc2G/service.png",
+    "technologies": ["React", "MongoDB", "Express.js", "Tailwind CSS", "JWT"],
+    "challenges": "Handling JWT-based secure authentication, preventing spam reviews, and allowing real-time feedback editing while maintaining consistent UX was a key challenge.",
+    "futurePlans": "Add verified reviews using OTP/email validation, introduce review analytics (most reviewed, trending), and allow business owners to respond to reviews."
+  },
+  {
+    "id": 3,
+    "name": "Lawyer Appointment Booking",
+    "description": "A web application to book appointments with lawyers. Users can explore lawyer profiles, schedule appointments, and visualize data using charts. Includes smooth animations and saves user data using localStorage.",
+    "image": "https://i.ibb.co/HDFK4z8k/law.png",
+    "technologies": [
+      "React",
+      "React Router",
+      "Tailwind CSS",
+      "Recharts",
+      "react-countup",
+      "Custom Hooks",
+      "Conditional Rendering",
+      "localStorage"
+    ],
+    "challenges": "Designing an intuitive booking system with persistent state management using localStorage was tricky. Also had to handle availability conflicts and visual responsiveness on all devices.",
+    "futurePlans": "Add calendar sync (Google/Outlook), implement dynamic pricing filters, build a lawyer dashboard for managing availability, and introduce real-time chat between clients and lawyers."
+  }
+]
