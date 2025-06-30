@@ -5,7 +5,7 @@ import { Link } from "react-router";
 import ModalDetails from "./ModalDetails";
 
 const ProjectCards = ({ project }) => {
-  const { name, image, description } = project;
+  const { name, image, description, live, repsitory } = project;
 
   return (
     <div>
@@ -27,7 +27,7 @@ const ProjectCards = ({ project }) => {
           <div className="flex justify-between items-center gap-3">
             <div className="btn bg-white ">
               {" "}
-              <Link to={"https://github.com/parvezreza55/hobbyHub"}>
+              <Link to={repsitory}>
                 {" "}
                 <FaGithub size={20} color="teal">
                   {" "}
@@ -35,7 +35,7 @@ const ProjectCards = ({ project }) => {
               </Link>{" "}
             </div>
             <Link
-              to={"https://hobby-hub-client-12859.web.app/"}
+              to={live}
               className="flex w-fit gap-2 btn text-teal-400 bg-white"
             >
               Live{" "}

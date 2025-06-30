@@ -1,6 +1,8 @@
 [
   {
     "id": 1,
+    "repsitory": "https://github.com/parvezreza55/hobbyHub",
+    "live": "https://hobby-hub-client-12859.web.app/",
     "name": "HobbyHub",
     "description": "HobbyHub is a platform that connects people through shared hobbies. Discover local groups, join events, or create your own community around passions like art, music, sports, and more all in one place.",
     "image": "https://i.ibb.co/gFjc5Zm2/hobby.png",
@@ -16,6 +18,8 @@
   },
   {
     "id": 2,
+    "repsitory": "https://github.com/parvezreza55/serviceReview",
+    "live": "https://service-review-client-75e4a.web.app/",
     "name": "Service Review",
     "description": "ServiceReviewHub is a platform where users can explore, rate, and review various services. From local businesses to digital platforms, it helps people share experiences, build trust, and make informed decisions through genuine user feedback.",
     "image": "https://i.ibb.co/GvCqVc2G/service.png",
@@ -25,6 +29,8 @@
   },
   {
     "id": 3,
+    "repsitory": "https://github.com/parvezreza55/lawBooking",
+    "live": "https://majestic-pudding-1600af.netlify.app/",
     "name": "Lawyer Appointment Booking",
     "description": "A web application to book appointments with lawyers. Users can explore lawyer profiles, schedule appointments, and visualize data using charts. Includes smooth animations and saves user data using localStorage.",
     "image": "https://i.ibb.co/HDFK4z8k/law.png",

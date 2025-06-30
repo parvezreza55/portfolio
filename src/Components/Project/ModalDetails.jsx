@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { MdArrowOutward } from "react-icons/md";
 
 const ModalDetails = ({ project }) => {
-  const { futurePlans, challenges } = project;
+  const { futurePlans, challenges, live, repsitory } = project;
 
   return (
     <div>
@@ -44,17 +44,14 @@ const ModalDetails = ({ project }) => {
           <div className="flex justify-center items-center gap-3  rounded-t-2xl py-1">
             <div className="btn bg-white ">
               {" "}
-              <Link to={"https://github.com/parvezreza55/hobbyHub"}>
+              <Link to={repsitory}>
                 {" "}
                 <FaGithub size={20} color="teal">
                   {" "}
                 </FaGithub>
               </Link>{" "}
             </div>
-            <Link
-              to={"https://hobby-hub-client-12859.web.app/"}
-              className="flex gap-2 btn text-teal-400 bg-white"
-            >
+            <Link to={live} className="flex gap-2 btn text-teal-400 bg-white">
               Live{" "}
               <span>
                 <MdArrowOutward />
