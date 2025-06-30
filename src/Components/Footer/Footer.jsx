@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import React from "react";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { NavLink } from "react-router";
