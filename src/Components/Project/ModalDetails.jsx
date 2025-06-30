@@ -5,7 +5,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const ModalDetails = ({ project }) => {
   const { futurePlans, challenges } = project;
-  // console.log(ids);
+
   return (
     <div>
       <div className=" card flex-col md:flex-row bg-base-300 rounded-2xl shadow-sm ">

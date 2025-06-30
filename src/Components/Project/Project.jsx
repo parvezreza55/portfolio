@@ -7,7 +7,6 @@ import ProjectCards from "./ProjectCards";
 const projectsData = fetch("./project.json").then((res) => res.json());
 const Project = () => {
   const projectData = use(projectsData);
-  console.log(projectData);
 
   return (
     <div>
