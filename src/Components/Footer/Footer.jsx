@@ -97,9 +97,7 @@ const Footer = () => {
                 <FaFacebook color="#d53e07" size={20}></FaFacebook>
               </NavLink>
               <NavLink
-                to={
-                  "https://www.linkedin.com/in/parvez-reza-9a78a42a8/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                }
+                to={"https://www.linkedin.com/in/parvez-reza/"}
                 target="_blank"
               >
                 {" "}

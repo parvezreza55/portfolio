@@ -7,7 +7,7 @@ const skillDatas = fetch("./skill.json").then((res) => res.json());
 const Skills = () => {
   const [showAll, setShowAll] = useState(false);
   const skillData = use(skillDatas);
-  const visibleSkill = showAll ? skillData : skillData.slice(0, 6);
+  const visibleSkill = showAll ? skillData : skillData.slice(0, 4);
   return (
     <Element name="skill">
       <div data-aos="zoom-in-up">
@@ -16,7 +16,7 @@ const Skills = () => {
             Skill Set
           </h1>
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {visibleSkill.map((skill) => (
                 <SkillsCard key={skill.id} skill={skill}></SkillsCard>
               ))}

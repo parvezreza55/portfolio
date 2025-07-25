@@ -46,9 +46,7 @@ const Hero = () => {
             </motion.h1>
             <motion.h1 whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <Link
-                to={
-                  "https://www.linkedin.com/in/parvez-reza-9a78a42a8/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                }
+                to={"https://www.linkedin.com/in/parvez-reza/"}
                 target="_blank"
               >
                 <FaLinkedin size={20} />
